@@ -36,3 +36,41 @@
     transform: rotate(360deg);
   }
 }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+.active {
+  background-color: #4caf50;
+}
+
+.custom-select {
+  position: relative;
+  font-family: Arial;
+  width: 200px;
+  background-color: #ff5722;
+  height: 46px;
+  color: #fff;
+  font-size: 18px;
+  float: right;
+}
